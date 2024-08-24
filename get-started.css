@@ -1,0 +1,97 @@
+body {
+    background-color: #1a1d23; /* bg-gray-900 */
+    color: #ffffff; /* text-white */
+    margin: 0; /* add this to remove default margins */
+    text-align: center; /* add this to center the text */
+    }
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #6c5ce7; /* bg-purple-800 */
+        color: #ffffff; /* text-white */
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000; /* add a high z-index to ensure it's on top */
+        }
+        
+        header nav {
+        display: flex;
+        align-items: center;
+        }
+        
+        header nav img {
+        width: 2rem;
+        height: 2rem;
+        margin-right: 1rem;
+        }
+        
+        header nav a {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: #ffffff;
+        text-decoration: none;
+        }
+   
+    
+    main {
+    padding-top: 4rem; /* add padding to create space for the header */
+    padding-bottom: 2rem;
+    text-align: center; /* add this to center the text */
+    }
+    
+    section {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    }
+    
+    h1 {
+    margin-bottom: 0.5rem; /* add some space between the heading and description */
+    }
+    
+    h2 {
+    color: #6c5ce7; /* text-purple-800 */
+    }
+    
+    img {
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .footer {
+    background-color: #432371; /* changed color to a deeper purple */
+    padding: 20px;
+    border-top: none; /* removed border-top */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* added box-shadow for better design */
+    text-align: center; /* added this to center the text */
+    }
+    
+    .footer-description {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    margin-bottom: 20px; /* added margin bottom for better spacing */
+    }
+    
+    .footer-links {
+    margin-top: 20px; /* added margin top for better spacing */
+    }
+    
+    .footer-links img {
+    width: 24px; /* set image width */
+    height: 24px; /* set image height */
+    margin-right: 10px; /* add margin right */
+    }
+    
+    .footer-links a {
+    margin-right: 20px; /* added margin right for better spacing */
+    }
+    
+    .footer p {
+    font-size: 14px; /* changed font size */
+    color: #ccc; /* changed color to a lighter gray */
+    }

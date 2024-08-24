@@ -1,0 +1,167 @@
+@layer base {
+    html {
+    font-family: Inter, sans-serif;
+    }
+    body {
+    background-color: #1a1d23; /* changed to match bg-gray-900 */
+    }
+    }
+    
+    @layer components {
+    .btn {
+    @apply bg-purple-700 hover:bg-purple-800 text-white font-bold py-2 px-4 rounded;
+    }
+    }
+    
+    @layer utilities {
+    .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    }
+    }
+    
+    /* Custom styles */
+    .bg-purple-800 {
+    background-color: #6c5ce7;
+    }
+    .bg-gray-900 {
+    background-color: #1a1d23;
+    }
+    .text-white {
+    color: #ffffff;
+    }
+    .text-purple-800 {
+    color: #6c5ce7;
+    }
+    
+    .w-8 {
+    width: 2rem;
+    }
+    .h-8 {
+    height: 2rem;
+    }
+    
+    /* Added styles for the gif image */
+    .gif-style {
+    width: 60%; /* increased width to 60% */
+    height: auto;
+    margin-top: 20px; /* added margin top for better spacing */
+    margin-left: auto; /* added margin left to center the image */
+    margin-right: auto; /* added margin right to center the image */
+    }
+    
+    .paper {
+    border: 1px solid #66CCCC;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* added border radius for rounded corners */
+    }
+    
+    .paper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #66CCCC;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: -1;
+    border-radius: 10px; /* added border radius for rounded corners */
+    }
+    
+    .paper::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #66CCCC;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: -1;
+    border-radius: 10px; /* added border radius for rounded corners */
+    }
+    /* Added styles for font sizes */
+    .text-xs {
+    font-size: 0.75rem;
+    }
+    
+    .text-sm {
+    font-size: 0.875rem;
+    }
+    
+    .text-lg {
+    font-size: 1.125rem;
+    }
+    
+    .text-2xl {
+    font-size: 1.5rem;
+    }
+    
+    .text-3xl {
+    font-size: 1.875rem;
+    }
+    
+    /* Added styles for font weights */
+    .font-bold {
+    font-weight: bold;
+    }
+    
+    .font-mono {
+    font-family: monospace;
+    }
+    
+    .font-sans {
+    font-family: sans-serif;
+    }
+    
+    /* Added styles for paper corners */
+    .paper {
+    border: 1px solid #66CCCC;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #C9C3E6; /* light purple */
+    }
+    
+    .paper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #66CCCC;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: -1;
+    border-radius: 10px;
+    background-color: #C9C3E6; /* light purple */
+    }
+    
+    .paper::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #66CCCC;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: -1;
+    border-radius: 10px;
+    background-color: #C9C3E6; /* light purple */
+    }
+    
+    /* Adjusting text color for better readability */
+    .text-xs, .text-sm, .text-lg, .text-2xl, .text-3xl {
+    color: #333; /* dark gray */
+    }
+    .footer-links img {
+    width: 24px; /* set image width */
+    height: 24px; /* set image height */
+    margin-right: 10px; /* add margin right */
+    }

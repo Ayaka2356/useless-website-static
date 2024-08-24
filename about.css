@@ -1,0 +1,44 @@
+.about-container {
+    background-color: #c9c3e6; /* cyan-purplish background */
+    padding: 30px; /* increased padding */
+    border-radius: 10px; /* added border radius */
+}
+
+.about-heading {
+    font-family: 'Montserrat', sans-serif; /* added font family */
+    color: #432371; /* changed color to a deeper purple */
+}
+
+.about-content {
+    font-family: 'Lato', sans-serif; /* added font family */
+    color: #666; /* changed color to a darker grey */
+    line-height: 1.5; /* added line height for better readability */
+}
+
+.about-list-item {
+    padding-left: 20px; /* added padding for better alignment */
+}
+
+.about-list-item::before {
+    color: #432371; /* changed color to match the heading color */
+}
+.footer {
+    background-color: #432371; /* changed color to a deeper purple */
+    padding: 20px;
+    border-top: none; /* removed border-top */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* added box-shadow for better design */
+}
+
+.footer-description {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+}
+
+
+.footer-links img {
+    width: 24px; /* set image width */
+    height: 24px; /* set image height */
+    margin-right: 10px; /* add margin right */
+}

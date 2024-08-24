@@ -1,0 +1,47 @@
+.contributor-avatar {
+    width: 96px; /* set image width */
+    height: 96px; /* set image height */
+    border-radius: 50%; /* make the image a circle */
+    margin-bottom: 10px; /* add margin bottom */
+}
+
+.contributor-info {
+    text-align: center; /* center the text */
+}
+
+.contributor-info h3 {
+    font-size: 18px; /* set font size */
+    margin-bottom: 5px; /* add margin bottom */
+}
+
+.contributor-info p {
+    font-size: 14px; /* set font size */
+    color: #666; /* set text color */
+    margin-bottom: 10px; /* add margin bottom */
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+    background-color: #432371; /* changed color to a deeper purple */
+    padding: 20px;
+    border-top: none; /* removed border-top */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* added box-shadow for better design */
+}
+
+.footer-description {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+}
+
+
+.footer-links img {
+    width: 24px; /* set image width */
+    height: 24px; /* set image height */
+    margin-right: 10px; /* add margin right */
+}
